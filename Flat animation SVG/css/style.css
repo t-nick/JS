@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.flat{
+	position: relative;
+	text-align: center;
+}
+svg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.room {
+	opacity: 0;
+	transition: opacity .5s ease;
+}
+.room:hover{
+	opacity: .4;
+}
