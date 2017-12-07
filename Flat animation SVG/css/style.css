@@ -2,6 +2,12 @@ body{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	color: #00d590;
+}
+h3{
+	text-align: center;
+	color: #f66;
 }
 .flat{
 	position: relative;
@@ -20,4 +26,16 @@ svg{
 }
 .room:hover{
 	opacity: .4;
+}
+.description{
+	padding: 20px;
+	height: 200px;
+	width: 150px;
+	position: absolute;
+	top: calc(50% - 100px);
+	left: 10px;
+	box-shadow: 2px 2px 5px #ccc;
+	display: none;
+	text-align: center;
+	font-weight: 300;
 }
